@@ -6,6 +6,8 @@ import Clinicians from './pages/Clinicians'
 import Insurance from './pages/Insurance'
 import ClinicalTrials from './pages/ClinicalTrials'
 import News from './pages/News'
+import NewsPage from './pages/NewsPage'
+import Contact from './pages/Contact'
 
 function App() {
 
@@ -18,6 +20,8 @@ function App() {
         <Route path='/insurance' element={<Insurance/>}/>
         <Route path='/clinicalTrials' element={<ClinicalTrials/>}/>
         <Route path='/news' element={<News/>}/>
+        <Route path='/newspage' element={<NewsPage/>}/>
+        <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
   )
