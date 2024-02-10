@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/hero'
+import Hero from '../components/Hero'
 import ClinicCard from '../components/ClinicCard'
 import patient from '../img/patient.png'
 import doctor from '../img/doctor_img.jpg'

@@ -1,6 +1,6 @@
 import React, { useRef } from 'react'
 import Navbar from '../components/Navbar'
-import Hero from '../components/hero'
+import Hero from '../components/Hero'
 import insurance from '../img/insurance_img.jpg'
 import fam_insur from '../img/fam_insur.jpg'
 import { Link } from 'react-router-dom'
