@@ -58,7 +58,7 @@ export default function Navbar() {
     
     :
     
-    <div className='hidden md:flex'>
+    <div className='hidden  md:flex'>
               <NavList name="Home" linkPath="/"/>
         <NavList name="Patients" linkPath="/patient"/>
         <NavList name="Clinicians" linkPath="/clinicians"/>

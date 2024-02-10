@@ -18,7 +18,7 @@ export default function Contact() {
                 <input type="text" name="" id="" placeholder='Name' className='border border-blue-800 m-1 h-10 w-full rounded-md pl-2'/>
                 <input type="email" name="" id="" placeholder='Email' className='border border-blue-800 m-1 h-10 w-full rounded-md pl-2'/>
                 <input type="text" name="" id="" placeholder='Phone Number' className='border border-blue-800 m-1 w-full h-10 rounded-md pl-2'/>
-                <input type="text" name="" id="" placeholder='Message' className='border border-blue-800 m-1 h-10 w-full rounded-md pl-2'/>
+                <input type="text" name="" id="" placeholder='Message' className='border border-blue-800 m-1 min-h-[100px] w-full rounded-md pl-2'/>
                 <div className='ml-[80%] md:ml-[87%]'>
                     <button className='bg-indigo-900 text-white px-5 rounded-sm py-1 text-sm mb-20 relative mt-2'>Send</button>
                     <img src={send} alt="" className='absolute -mt-[101px] w-[15px] ml-1'/>
