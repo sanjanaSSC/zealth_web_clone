@@ -23,7 +23,7 @@ export default function NewsEach() {
         return content.map((item, index) => {
             if (typeof item === 'string') {
                 // Render paragraphs
-                return <p key={index}>{item}<br/><br/></p>;
+                return <p key={index} className='text-sm'>{item}<br/><br/></p>;
             } else if (Array.isArray(item)) {
                 // Render bullet points
                 return (
