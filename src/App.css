@@ -25,3 +25,22 @@
     font-size: small;
 
   }
+  .dotStyles {
+    margin : 0 3px;
+    border-radius:50%;
+    width:50px;
+    height: 20px;
+    color: black;
+    background-color: black;
+    cursor: pointer;
+}
+.dotStylesActive {
+    border-radius:50%;
+    width:20px;
+    height: 20px;
+    margin : 0 3px;
+    color: azure;
+    border-color: black;
+    background-color: black;
+    cursor: pointer;
+}

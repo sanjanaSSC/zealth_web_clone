@@ -36,11 +36,17 @@ return(
         <button onClick={goToNext}><img src={right} alt="" className='w-[20px] absolute top-32 left-[90%]'/></button>
         </div>
         
-        {/* <div sx={dotContainer}>
-        {TestimonialInfo.map((slide,slideIndex) => (
-            <div key={slideIndex} classname={slideIndex=== currentIndex ? "dotStyles" : "dotStylesActive"} onClick={() => {goToSlide(slideIndex)}}></div>
-        ))}
-        </div> */}
+        <div className="flex justify-center mt-4">
+            {TestimonialInfo.map((slide, slideIndex) => (
+            <div
+                key={slideIndex}
+                className={`w-4 h-4 rounded-full mx-1 cursor-pointer ${
+                slideIndex === currentIndex ? 'bg-black' : 'bg-white'
+                }`}
+                onClick={() => goToSlide(slideIndex)}
+                ></div>
+                ))}
+            </div>
     </div>
 )
 }

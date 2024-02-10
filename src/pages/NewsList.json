@@ -4,55 +4,112 @@
         "title":"Navigating the monetisation maze in Digital Health",
         "text":"How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? .",
         "author":"Dheeraj Mundra",
-        "date":"May 23, 2023"
+        "date":"May 23, 2023",
+        "content":[
+                    "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", 
+                    "If any can relate to the above, continue reading!", 
+                    "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for.",
+                    " We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", 
+                    "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. "
+                    
+        ]
     },
     {
         "id":2,
         "title":"Monitoring of CareShare using Prometheus & Grafana",
         "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
         "author":"Dheeraj Mundra",
-        "date":"June 8, 2021"
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":3,
-        "title":"Zealth joins Y Combinator Winter 21 batch",
-        "text":"Y Combinator (YC) is a silicon-valley based startup accelerator, that has funded over 3000 startups, currently having a combined valuation of over $300B. ",
+        "title":"Monitoring of CareShare using Prometheus & Grafana",
+        "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
         "author":"Dheeraj Mundra",
-        "date":"June 8, 2021"
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":4,
         "title":"Monitoring of CareShare using Prometheus & Grafana",
         "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
         "author":"Dheeraj Mundra",
-        "date":"June 8, 2021"
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":5,
         "title":"Monitoring of CareShare using Prometheus & Grafana",
         "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
         "author":"Dheeraj Mundra",
-        "date":"June 8, 2021"
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":6,
         "title":"Monitoring of CareShare using Prometheus & Grafana",
         "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
         "author":"Dheeraj Mundra",
-        "date":"June 8, 2021"
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":7,
-        "title":"Building a business during a pandemic",
-        "text":"What does it take to start a business during a pandemic and how do you adapt? Some of the founders from our new companies in the fourth Singapore cohort share their experiences ahead of Antler Southeast Asia’s first virtual Demo Day on July 16 at 5pm SGT.",
-        "author":"Zealth",
-        "date":"March 3, 2021"
+        "title":"Monitoring of CareShare using Prometheus & Grafana",
+        "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
+        "author":"Dheeraj Mundra",
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     },
     {
         "id":8,
-        "title":"Meet the 15 new startups that have received funding from Antler",
-        "text":"Global startup generator and early-stage VC firm Antler has announced the 15 new companies that have graduated and received investment from its fourth Singapore programme.",
-        "author":"Zealth",
-        "date":"March 3, 2021"
+        "title":"Monitoring of CareShare using Prometheus & Grafana",
+        "text":"We recently had to setup metrics monitoring for CareShare. CareShare’s backend is a node.js application that is being run using PM2 clusters.",
+        "author":"Dheeraj Mundra",
+        "date":"June 8, 2021",
+        "content":[
+            "How many of you have come across situations where you yourself or someone you know had ignored some symptoms while they were mild and only took actions later on? Or do you procrastinate meeting a doctor or taking health intervention because of long waiting time and all the hassle of taking leave and travelling?", "If any can relate to the above, continue reading!", "In today’s world when we get groceries in minutes, cabs on a click, entertainment on a click, why is healthcare so lagging behind? Why can’t we get the help we need whenever we need it – from as simple as helping with if my symptoms need attention? Telling what it could be and if needs to be treated, doing it then and there? Or as simple as diet or mental health or lifestyle related help? That’s the gap we wanted to solve for."," We started Zealth in the pursuit of improving patient outcomes with instant and personalised 24×7 care available at home. In this pursuit we talked to a lot of doctors, patients and hospital owners to design and develop CareShare.", "CareShare is a combination of AI chatbot on Whatsapp and human touchpoints that uses knowledge graphs to automate complex care-pathways and assist patients with their questions on diet, exercises, medication and symptoms. ",
+            "After multiple iterations of the product we were able to execute pilots in some major hospitals in India achieving a high patient engagement rate, 4x higher than current alternatives for oncology patients. We got a lot of love from the patients ❤️ primarily for the following reasons –No waiting time – Hospitals and long waiting times are married to each other. CareShare gives the care instantly – from symptom to diet to medication or just want to talk – everything is in real time.Proactive care – When was the last time you got a message from your doctor few days post consultation asking How are you feeling now?",
+            "Highly personalised care – Carshare knows exactly each step of your care journey and what you can expect! It gives you a personalised recipe for your dinner when you may be feeling a bit nauseous a day after your treatment."
+
+    ]
+
     }
 ]

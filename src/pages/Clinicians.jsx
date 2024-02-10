@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/hero'
 import ClinicCard from '../components/ClinicCard'
@@ -11,6 +11,8 @@ import Footerpage from '../components/Footerpage'
 import { Link } from 'react-router-dom'
 
 export default function Clinicians() {
+  const firstref = useRef(null)
+
   const handleNavigation = () => {
     // Reset scroll position to the top of the page
     window.scrollTo(0, 0);
@@ -19,7 +21,7 @@ export default function Clinicians() {
     <div>
       <Navbar/>
       <Hero image={doctor} head1="Remotely monitor" head2="your cancer" head3="patients" para1="Zealth’s platform, CareShare doctor, provides visibility into your patient’s health once they leave the hospital. It alerts you when there is any potential issue, giving you a chance to intervene timely and better understanding of how the patient is responding to treatment. " para2="Zealth provides cancer clinics a smart and modern way to move towards proactive treatment management with the potential to predict complications and relapse in a much earlier phase."/>
-      <div className='bg-slate-200 py-10 px-4 md:pl-28'>
+      <div id="section" ref={firstref} className='bg-slate-200 py-10 px-4 md:pl-28'>
         <ClinicCard image={patient} name="Seamless patient onboarding"/>
         <div className='md:ml-[48%] md:-mt-20'>
           <ClinicCard image={burden} name="Reduce burden"/>

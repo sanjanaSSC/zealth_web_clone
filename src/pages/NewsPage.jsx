@@ -35,7 +35,6 @@ function ApplicationList({applications}){
   
   const displayUsers = applications.slice(pageVisited, pageVisited + pageSize)
   .map((application) => {
-  console.log(applications,'yes')
 
   return(
         <div className='col-span-1'>
@@ -65,7 +64,6 @@ const changePage = ({selected})=>{
       </div> 
        : 
        <div className='px-4  md:px-28 pb-20'>
-         {console.log(displayUsers,'user')}
          <div className='flex flex-col md:grid md:grid-cols-2 mb-5'>
           {displayUsers}
          </div>

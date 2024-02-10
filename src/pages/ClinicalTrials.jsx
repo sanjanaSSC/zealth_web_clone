@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/hero'
 import { Link } from 'react-router-dom'
@@ -7,6 +7,8 @@ import tick from '../img/tick.png'
 import Footerpage from '../components/Footerpage'
 
 export default function ClinicalTrials() {
+  const firstref = useRef(null)
+
   const handleNavigation = () => {
     // Reset scroll position to the top of the page
     window.scrollTo(0, 0);
@@ -15,7 +17,7 @@ export default function ClinicalTrials() {
     <div>
       <Navbar/>
       <Hero image={clinic_img} head1="Zealth helps pharma" head2="companies and CROs" head3="save time and money" head4="through its virtual" head5="clinical trial platform"/>
-      <div className='flex flex-col px-4 md:text-start items-center md:items-start md:pl-28 mb-20'>
+      <div id="section" ref={firstref} className='flex flex-col px-4 md:text-start items-center md:items-start md:pl-28 mb-20'>
       <ul className='font-semibold leading-9 mt-20'>
         <div className='flex'>
           <img src={tick} alt="" className='w-[20px] h-[20px] mt-2 mr-1'/>

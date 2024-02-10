@@ -12,7 +12,7 @@ function NavList(props){
   };
     return(
         <Link to={props.linkPath} onClick={handleNavigation}>
-            <li className='flex list-none p-4 text-sm font-semibold text-center md:hover:text-rose-500 md:hover:-translate-y-1.5 hover:duration-500		'>{props.name}</li>
+            <li className='flex list-none p-4 text-sm font-semibold text-center hover:scale-110 md:hover:scale-100 md:hover:text-rose-500 md:hover:-translate-y-1.5 hover:duration-50'>{props.name}</li>
         </Link>
     )
 }
@@ -38,14 +38,14 @@ export default function Navbar() {
 
   return (
     <>
-    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 '>
+    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 mb-32'>
     <div className='flex justify-between '>
       <img src={Logo} alt="" className='w-[30%] md:w-[32%] pl-2'/>
       <img src={menuImg} alt="" onClick={handleBar} className='w-[40px] h-[40px] p-2 md:hidden'/>
     </div>
     {((showBar) ? 
     
-    <div className='flex flex-col md:flex-row h-[100vh] md:h-[20px] text-center'>
+    <div className='flex flex-col md:flex-row  items-center md:items-start fixed  h-[100vh] bg-white w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 z-50 transition-transform duration-300 ease-in-out transform translate-x-full md:translate-x-0"'>
         <NavList name="Home" linkPath="/"/>
         <NavList name="Patients" linkPath="/patient"/>
         <NavList name="Clinicians" linkPath="/clinicians"/>

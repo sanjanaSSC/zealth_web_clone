@@ -8,6 +8,7 @@ import ClinicalTrials from './pages/ClinicalTrials'
 import News from './pages/News'
 import NewsPage from './pages/NewsPage'
 import Contact from './pages/Contact'
+import NewsEach from './pages/NewsEach'
 
 function App() {
 
@@ -21,6 +22,7 @@ function App() {
         <Route path='/clinicalTrials' element={<ClinicalTrials/>}/>
         <Route path='/news' element={<News/>}/>
         <Route path='/newspage' element={<NewsPage/>}/>
+        <Route path='/newsEach' element={<NewsEach/>}/>
         <Route path='/contact' element={<Contact/>}/>
       </Routes>
     </>
