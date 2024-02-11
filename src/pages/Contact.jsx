@@ -25,7 +25,7 @@ export default function Contact() {
                 </div>
             </div>
       </div>
-      <img src={contact_img} alt="" className='pt-20 md:pt-0 md:w-1/2 md:pl-10'/>
+      <img src={contact_img} alt="" className='pt-20 md:mt-20 md:pt-0 md:w-1/2 md:h-[80%] md:pl-10'/>
       </div>
       <div className='px-4 md:px-28 pb-20'>
         <h3 className='text-blue-900 font-bold mb-7'>Address</h3>

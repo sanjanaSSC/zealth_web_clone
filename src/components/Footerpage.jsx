@@ -1,8 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function List(props){
     return(
-        <li className='list-none text-center text-sm font-bold leading-8 hover:scale-125 hover:cursor-pointer		'>{props.name}</li>
+        <Link to={props.path} ><li className='list-none text-center text-sm font-bold leading-8 hover:scale-125 hover:cursor-pointer		'>{props.name}</li></Link>
     )
 }
 
@@ -15,17 +16,17 @@ export default function Footerpage() {
             <h2 className='text-2xl text-center'>End to End Remote monitoring for cancer patients</h2>
         </div>
         <div className='md:pr-20'>
-            <List name="Home"/>
-            <List name="News"/>
+            <List name="Home" path="/"/>
+            <List name="News" path="/newspage"/>
             <List name="Join Us"/>
-            <List name="Contact Us"/>
+            <List name="Contact Us" path="/contact"/>
             <List name="CareShare"/>
         </div>
         <div>
-            <List name="Clinical Trials"/>
-            <List name="Clinicians"/>
-            <List name="Insurance"/>
-            <List name="Patients"/>
+            <List name="Clinical Trials" path="/clinicalTrials"/>
+            <List name="Clinicians" path="/clinicians"/>
+            <List name="Insurance" path="/insurance"/>
+            <List name="Patients" path="/patient"/>
         </div>
       </div>
       <div className='bg-yellow-400 col-span-2 p-5 py-10 md:p-10'>

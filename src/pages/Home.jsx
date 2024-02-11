@@ -34,14 +34,14 @@ export default function Home() {
   return (
     <div className=''>
         <Navbar/>
-        <Hero image={home_img} head1="End to End Remote " head2="monitoring for " head3=" cancer patients" para1="" para2=""/>
+        <Hero image={home_img} head1="End to End Remote  monitoring for cancer patients" para1="" para2=""/>
       <div id="section" ref={firstref} className='flex flex-col md:flex-row bg-blue-900  md:pl-10'>
-        <div className='md:w-[50vw] pl-4 pb-4 md:pr-5'> 
+        <div className='md:w-[60vw] pl-4 pb-4 md:pr-5'> 
             <h3 className='text-center p-5 text-3xl font-bold text-white'>We Understand You Well</h3>
             <p className='text-sm text-white leading-6'>When I saw my close family member going through cancer (which is undoubtedly one of the most complicated diseases that ever existed in humanity), I realized a big gap in healthcare. The patient had to go through multiple toxic chemos followed by radio and eventually surgery. The entire two years were just full of confusion. Whether to call up the doctor, looking up for information on the internet, what do these tests mean, what do these symptoms mean, am I getting better or getting worse?!? There were just too many unanswered questions with no easy solution. Even though we were lucky to have access to some of the best doctors in the country, they were still so overburdened with limited resources to provide continuous round-the-clock care at home. That was the moment when I realized that something needs to be changed. –  Monika Mehta , Ph.D.,  CEO We then came up with an end-to-end solution that provides real-time health monitoring and insights using machine learning for easy management of the disease at home. It not only helps patients and empowers them with all the correct information at the right time but also reduces the burdens from their doctors. –  Dheeraj Mundhra , CTO.</p>
         </div>
         <div>
-          <img src={zealth_founders} alt="" className='md:h-[80vh] md:w-[55vw] -pl-4 md:-px-0'/>
+          <img src={zealth_founders} alt="" className='md:h-[400px] md:w-full -pl-4 md:-px-0'/>
         </div>
       </div>
       <div className='flex flex-col md:grid md:grid-cols-4 mt-10 py-16 bg-gray-200 px-4 md:px-28'>

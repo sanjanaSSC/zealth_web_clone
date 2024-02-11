@@ -16,7 +16,7 @@ export default function ClinicalTrials() {
   return (
     <div>
       <Navbar/>
-      <Hero image={clinic_img} head1="Zealth helps pharma" head2="companies and CROs" head3="save time and money" head4="through its virtual" head5="clinical trial platform"/>
+      <Hero image={clinic_img} head1="Zealth helps pharma companies and CROs save time and money through its virtual clinical trial platform"/>
       <div id="section" ref={firstref} className='flex flex-col px-4 md:text-start items-center md:items-start md:pl-28 mb-20'>
       <ul className='font-semibold leading-9 mt-20'>
         <div className='flex'>

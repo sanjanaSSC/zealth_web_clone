@@ -12,7 +12,7 @@ function NavList(props){
   };
     return(
         <Link to={props.linkPath} onClick={handleNavigation}>
-            <li className='flex list-none p-4 text-sm font-semibold text-center hover:scale-110 md:hover:scale-100 md:hover:text-rose-500 md:hover:-translate-y-1.5 hover:duration-50'>{props.name}</li>
+            <li className='flex list-none p-4 pb-2 text-sm font-semibold text-center hover:scale-110 md:hover:scale-100 md:hover:text-rose-500 md:hover:-translate-y-1.5 hover:duration-50'>{props.name}</li>
         </Link>
     )
 }
@@ -38,10 +38,10 @@ export default function Navbar() {
 
   return (
     <>
-    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 mb-32'>
+    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 '>
     <div className='flex justify-between '>
-      <img src={Logo} alt="" className='w-[30%] md:w-[32%] pl-2'/>
-      <img src={menuImg} alt="" onClick={handleBar} className='w-[40px] h-[40px] p-2 md:hidden'/>
+      <img src={Logo} alt="" className='w-[30%] md:w-[32%]  pl-2'/>
+      <img src={menuImg} alt="" onClick={handleBar} className='w-[40px] h-[40px] p-2 md:p-0 md:hidden'/>
     </div>
     {((showBar) ? 
     
@@ -58,14 +58,14 @@ export default function Navbar() {
     
     :
     
-    <div className='hidden  md:flex'>
+    <div className='hidden  md:flex pt-2'>
               <NavList name="Home" linkPath="/"/>
         <NavList name="Patients" linkPath="/patient"/>
         <NavList name="Clinicians" linkPath="/clinicians"/>
         <NavList name="Insurance" linkPath="/insurance"/>
         <NavList name="Clinical Trials" linkPath="/clinicalTrials"/>
         <NavList name="News" linkPath="/newspage"/>
-      <Link to="/contact" onClick={handleNavigation}><button className='bg-indigo-900 text-white py-1 px-5 rounded-md m-4'>Contact Us</button></Link>
+      <Link to="/contact" onClick={handleNavigation}><button className='bg-indigo-900 text-white py-1 px-5 rounded-md mx-2 mt-3'>Contact Us</button></Link>
     
     </div>)}
     </div>

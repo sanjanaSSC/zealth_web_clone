@@ -16,7 +16,7 @@ export default function Patients() {
   return (
     <div>
         <Navbar/>
-        <Hero image={patient_img} head1="Beat Cancer at " head2="Home" para1="Getting diagnosed with cancer is scary. Along with adjusting to your new life there is a lot to manage starting from diagnosis, treatment, appointments, tests, symptoms, medications, to nutrition." para2="Zealth’s mission is to put you back in control of your health. Our thoughtfully designed technology, CareShare, helps you stay on top of every aspect of your cancer journey."/>
+        <Hero image={patient_img} head1="Beat Cancer at Home" para1="Getting diagnosed with cancer is scary. Along with adjusting to your new life there is a lot to manage starting from diagnosis, treatment, appointments, tests, symptoms, medications, to nutrition." para2="Zealth’s mission is to put you back in control of your health. Our thoughtfully designed technology, CareShare, helps you stay on top of every aspect of your cancer journey."/>
       <div id="section" ref={firstref} className='flex md:pl-[48%] flex-col md:flex-row text-3xl items-center text-center md:items-start md:text-4xl font-bold text-blue-900 py-24 pt-32 bg-gray-100'>
         <img src={symptoms} alt="" className='px-6 w-[30%] md:w-[20%]'/>
         <h1>Symptom Management</h1>
