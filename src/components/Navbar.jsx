@@ -1,19 +1,30 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import Logo from '../img/zealth_logo.png'
 import Menu from '../img/menu.png'
 import Cancel from '../img/close (1).png'
 
 function NavList(props){
- 
+  const location = useLocation();
+
+  // Check if the current link matches the active route
+  const isActive = location.pathname === props.linkPath;
+
   const handleNavigation = () => {
+
     // Reset scroll position to the top of the page
     window.scrollTo(0, 0);
   };
     return(
-        <Link to={props.linkPath} onClick={handleNavigation}>
-            <li className='flex list-none p-4 pb-2 text-sm font-semibold text-center hover:scale-110 md:hover:scale-100 md:hover:text-rose-500 md:hover:-translate-y-1.5 hover:duration-50'>{props.name}</li>
-        </Link>
+      <Link
+      to={props.linkPath}
+      onClick={handleNavigation}
+      className={`block p-4 pb-2 text-sm font-semibold text-center ${
+        isActive ? 'text-rose-500 hover:scale-110 md:hover:scale-100 md:hover:-translate-y-1.5 hover:duration-50' : 'text-indigo-900 hover:text-rose-500 hover:scale-110 md:hover:scale-100 md:hover:-translate-y-1.5 hover:duration-50'
+      }`}
+    >
+       {props.name}
+    </Link>
     )
 }
 
