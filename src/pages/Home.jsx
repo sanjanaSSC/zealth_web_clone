@@ -68,17 +68,32 @@ export default function Home() {
       <div className='py-10 px-4 md:px-28'>
         <h4 className='text-3xl font-bold text-blue-900 text-center my-2 mb-10'>Partnerships and Press</h4>
         <div className='flex flex-col md:grid md:grid-cols-4'>
-          <PartnerImg image={partner1}/>
-          <PartnerImg image={partner2}/>
-          <PartnerImg image={partner3}/>
-          <PartnerImg image={partner4}/>
+        <div className='flex justify-center'>
+          <img src={partner1} alt="" className='w-[60%] py-4 md:py-0 md:w-[15vw] md:h-[10vh] p-2 mt-8'/>
+        </div>
+        <div className='flex justify-center'>
+          <img src={partner2} alt="" className='w-[60%] py-4 md:py-0 md:w-[15vw] md:h-[32vh] p-2 -mt-6'/>
+        </div>      
+        <div className='flex justify-center'>
+          <img src={partner3} alt="" className='w-[60%] py-4 md:py-0 md:w-[15vw] md:h-[26vh] p-2 '/>
+        </div>
+        <div className='flex justify-center'>
+          <img src={partner4} alt="" className='w-[60%] py-4 md:py-0 md:w-[12vw] md:h-[24vh] p-2 m'/>
+        </div>
         </div>
         <div className='flex flex-col md:grid md:grid-cols-4 mt-5'>
-        <PartnerImg image={partner5}/>
-        <PartnerImg image={partner6}/>
-        <PartnerImg image={partner7}/>
-        <PartnerImg image={partner8}/>
+        <div className='flex justify-center'>
+          <img src={partner5} alt="" className='w-[60%] py-4 md:py-0 md:w-[22vw] md:h-[14vh] p-2 mt-8'/>
+        </div>     
+        <div className='flex justify-center'>
+          <img src={partner6} alt="" className='w-[60%] py-4 md:py-0 md:w-[15vw] md:h-[12vh] p-2 mt-8'/>
         </div>
+        <div className='flex justify-center'>
+          <img src={partner7} alt="" className='w-[60%] py-4 md:py-0 md:w-[16vw] md:h-[16vh] p-2 mt-8'/>
+        </div>
+        <div className='flex justify-center'>
+          <img src={partner8} alt="" className='w-[60%] py-4 md:py-0 md:w-[15vw] md:h-[28vh] p-2'/>
+        </div>        </div>
 
       </div>
       <Footerpage/>
