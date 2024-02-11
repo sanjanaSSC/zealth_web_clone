@@ -17,7 +17,8 @@ export default function ClinicalTrials() {
     <div>
       <Navbar/>
       <Hero image={clinic_img} head1="Zealth helps pharma companies and CROs save time and money through its virtual clinical trial platform"/>
-      <div id="section" ref={firstref} className='flex flex-col px-4 md:text-start items-center md:items-start md:pl-28 mb-20'>
+      <div id="section" ref={firstref} ></div>
+      <div className='flex flex-col px-4 md:text-start items-center md:items-start md:pl-28 mt-10 mb-20'>
       <ul className='font-semibold leading-9 mt-20'>
         <div className='flex'>
           <img src={tick} alt="" className='w-[20px] h-[20px] mt-2 mr-1'/>

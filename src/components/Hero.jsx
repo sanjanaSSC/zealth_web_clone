@@ -24,9 +24,9 @@ export default function Hero(props) {
   
   return (
     <div>
-      <div className='px-4 md:pl-28 pt-32 md:pt-40 pb-20 relative h-[95vh]'  style={{ backgroundImage: `url(${props.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
+      <div className='px-4 md:pl-28 pt-32 md:pt-40 pb-20 relative h-[80vh] md:h-[100vh]'  style={{ backgroundImage: `url(${props.image})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}>
       <div className='absolute inset-0 bg-white bg-opacity-45'></div>
-        <h1 className=' text-3xl md:text-5xl font-bold text-black  relative z-10 md:w-[55vw] md:leading-normal'>{props.head1}</h1>
+        <h1 className=' text-3xl md:text-5xl font-bold text-black  relative z-10 md:w-[55vw] leading-normal'>{props.head1}</h1>
         <p className='font-semibold pt-4'>{props.para1}</p>
         <p className='font-semibold'>{props.para2}</p>
         <Link to='#section'>

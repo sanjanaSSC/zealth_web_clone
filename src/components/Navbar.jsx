@@ -45,7 +45,7 @@ export default function Navbar() {
     </div>
     {((showBar) ? 
     
-    <div className='flex flex-col md:flex-row  items-center md:items-start fixed  h-[100vh] bg-white w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 z-50 transition-transform duration-300 ease-in-out transform translate-x-full md:translate-x-0"'>
+    <div className='flex flex-col md:flex-row  items-center md:items-start fixed  h-[100vh] bg-white w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/5 z-50 transition-transform duration-700 transform translate-x-full md:translate-x-0"'>
         <NavList name="Home" linkPath="/"/>
         <NavList name="Patients" linkPath="/patient"/>
         <NavList name="Clinicians" linkPath="/clinicians"/>

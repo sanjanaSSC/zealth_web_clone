@@ -21,7 +21,8 @@ export default function Clinicians() {
     <div>
       <Navbar/>
       <Hero image={doctor} head1="Remotely monitor your cancer patients" para1="Zealth’s platform, CareShare doctor, provides visibility into your patient’s health once they leave the hospital. It alerts you when there is any potential issue, giving you a chance to intervene timely and better understanding of how the patient is responding to treatment. " para2="Zealth provides cancer clinics a smart and modern way to move towards proactive treatment management with the potential to predict complications and relapse in a much earlier phase."/>
-      <div id="section" ref={firstref} className='bg-slate-200 py-10 px-4 md:pl-28'>
+      <div  id="section" ref={firstref}></div>
+      <div className='bg-slate-200 py-10 px-4 md:pl-28 mt-10'>
         <ClinicCard image={patient} name="Seamless patient onboarding"/>
         <div className='md:ml-[48%] md:-mt-20'>
           <ClinicCard image={burden} name="Reduce burden"/>
