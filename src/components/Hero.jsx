@@ -30,7 +30,7 @@ export default function Hero(props) {
         <p className='font-semibold pt-4  text-sm md:text-base text-black'>{props.para1}</p>
         <p className='font-semibold text-sm md:text-base text-black'>{props.para2}</p>
         <Link to='#section'>
-        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white hover:bg-blue-500 transition-colors duration-300 mx-auto absolute bottom-4 left-[42vw] md:left-[50vw]">
+        <div className="flex items-center justify-center w-12 h-12 rounded-full bg-white hover:bg-blue-500 transition-colors duration-300 mx-auto absolute bottom-4 left-[50%] md:left-[50vw]">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="w-6 h-6 text-blue-500 transform rotate-0 transition-transform duration-300 hover:rotate-0"
