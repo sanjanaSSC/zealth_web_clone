@@ -13,7 +13,7 @@ export default function Footerpage() {
     <div className='md:grid md:grid-cols-5'>
       <div className='flex flex-col md:flex-row col-span-3 bg-blue-400 md:px-28 pt-10 pb-5'>
         <div className='pb-5 md:pr-32'>
-            <h2 className='text-2xl text-center'>End to End Remote monitoring for cancer patients</h2>
+            <h2 className='text-2xl text-center px-4 md:px-0'>End to End Remote monitoring for cancer patients</h2>
         </div>
         <div className='md:pr-20'>
             <List name="Home" path="/"/>
