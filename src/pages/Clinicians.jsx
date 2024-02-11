@@ -37,7 +37,7 @@ export default function Clinicians() {
           <ClinicCard image={monitor} name="Real time patient insight"/>
         </div>
         <div className='absolute'>
-        <Link  to="/contact" onClick={handleNavigation}><button className='bg-indigo-900 text-white py-1 px-5 rounded-sm relative -top-36 left-[240%]'>Contact Us To Know More</button></Link>
+        <Link  to="/contact" onClick={handleNavigation}><button className='bg-indigo-900 text-white py-1 px-5 rounded-sm relative left-[28%] md:-top-36 md:left-[240%]'>Contact Us To Know More</button></Link>
         </div>
       </div>
       <Footerpage/>
