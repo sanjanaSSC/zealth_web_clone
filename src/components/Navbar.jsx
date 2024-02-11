@@ -38,7 +38,7 @@ export default function Navbar() {
 
   return (
     <>
-    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 '>
+    <div className='md:flex md:justify-between fixed bg-white drop-shadow-md w-full z-20 md:pt-1'>
     <div className='flex justify-between py-2'>
       <img src={Logo} alt="" className='w-[40%] md:w-[32%]  pl-2'/>
       <img src={menuImg} alt="" onClick={handleBar} className='w-[60px] h-[60px] p-2 md:p-0 md:hidden'/>
